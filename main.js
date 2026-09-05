@@ -1,6 +1,6 @@
 let humanScore = 0, computerScore = 0;
 function score() {
-    console.log(`computer ${computerScore}, human: ${humanScore}`)
+    console.log(`computer: ${computerScore}, human: ${humanScore}`)
 }
 
 let getComputerChoice = () => {
