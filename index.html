@@ -4,25 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
     
-        body {
-            background-color: rgb(8, 58, 133);
-            display: flex;
-            height: 100vh;
-            justify-content: center;
-  
-        }
-        div {
-            align-self: center;
-            padding: 10px;
-            width: 50% ;
-        }
-
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div><h1>Play rock, paper, scissors in the console by pressing f12 and going to the console seccion, writte: playGame()</h1></div>
+    <div><h1>Rock, paper, Scissors!</h1></div>
+    <main>
+        <div class="buttonContainer">
+            <div><h2>Help Gon choose an attack by clicking one of the the opctions </h2></div>
+            <div>
+                <button class="reset">reset</button>
+            </div>
+        </div>
+        <div class="opctions">
+            <div>
+                <h2>Give me Rock!</h2>
+                <img id="rock" src="img/rock.jpeg" alt="">
+            </div>
+            <div>
+                <h2>Give me Paper!</h2>
+                <img id="paper" src="img/paper.jpeg" alt="">
+            </div>
+            <div>
+                <h2>Give me Scissors!</h2>
+                <img id="scissors"  src="img/scissors.jpeg" alt="">
+            </div>
+            
+            
+        </div>
+        <div class="scoreContainer">
+            <div><p class="score"></p></div>
+            <p class="result"></p>
+        </div>
+        
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
